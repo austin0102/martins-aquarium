@@ -1,0 +1,88 @@
+.fish__image {
+    width: 30%;
+    height: auto;
+    
+}
+/* CSS code to have fish section and cleaning section side by side */
+
+h2 {
+    text-align: center;
+}
+  body {
+    background-image: url("https://previews.123rf.com/images/tempusfugit/tempusfugit1201/tempusfugit120100135/11962617-colorful-aquarium-showing-different-colorful-fishes-swimming.jpg");
+    color: #38595E;
+    background-size: cover;
+  }
+
+#header {
+    text-align: center;
+    color: black;
+    border: #38595E 8px solid;
+    margin: 2px 330px;
+    background-color: #2CC0B3;
+    border-radius: 25px;
+  }
+
+  .top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+}
+  
+  .fish-section {
+    display: flex;
+    border: 10px solid #38595E;
+    float: left;
+    width: 40%;
+    margin: 25px auto;
+    background-color: #2CC0B3;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 2vw;
+  }
+
+  .cleaning-section {
+    display: flex;
+    border: 10px solid #38595E;
+    float: right;
+    width: 40%;
+    align-items: center;
+    padding: 120px 20px;
+    margin: 200px auto;
+    background-color: #2CC0B3;
+    border-radius: 25px;
+    text-align: left;
+    font-size: 2vw;
+  }
+
+  .travel-section-container {
+    display: flex;
+    border: 10px solid #38595E;
+    font-size: 2vw;
+    width: 40%;
+    margin: 25px auto;
+    padding: 10px 250px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #2CC0B3;
+    border-radius: 25px;
+  }
+
+  .harvest-section {
+    display: flex;
+    border: 10px solid #38595E;
+    font-size: 2vw;
+    width: 40%;
+    margin: 25px auto;
+    padding: 10px 250px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #2CC0B3;
+    border-radius: 25px;
+  }
